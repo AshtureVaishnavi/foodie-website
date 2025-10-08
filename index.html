@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foodie</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header>
+      <!-- Desktop Navbar -->
+      <nav id="navbar">
+        <div class="logo"><span>Foodie</span></div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#order">Order</a></li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Navbar -->
+      <div id="mobile">
+        <div class="logo1"><span>Foodie</span></div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#order">Order</a></li>
+        </ul>
+      </div>
+
+      <!-- Home Section -->
+      <div class="overlay" id="home">
+        <h1>Welcome to Foodie</h1>
+        <p>Delicious flavors, vibrant plates, and pure happiness—served fresh, every day.</p>
+        <button class="btn">Order Now</button>
+      </div>
+    </header>
+
+    <!-- Menu Section -->
+    <div id="menu">
+      <div class="heading">
+        <h1>Menu</h1>
+        <h3>Today's Special</h3>
+      </div>
+
+      <div class="card">
+        <img src="https://images.pexels.com/photos/14831540/pexels-photo-14831540.jpeg?auto=compress&cs=tinysrgb&w=800"
+          alt="Idli Wada">
+        <div class="details">
+          <div class="details-sub">
+            <h5>Idli Wada with Chutney</h5>
+            <h5 class="price">₹100</h5>
+          </div>
+          <p>Soft idlis, crispy vadas, and colorful chutneys – South India’s breakfast joy on a plate.</p>
+          <button>Add To Cart</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1668236543090-82eba5ee5976?auto=compress&cs=tinysrgb&w=800"
+          alt="Masala Dosa">
+        <div class="details">
+          <div class="details-sub">
+            <h5>Masala Dosa with Chutney</h5>
+            <h5 class="price">₹100</h5>
+          </div>
+          <p>Crispy dosa stuffed with spiced potato, served with chutneys and sambar.</p>
+          <button>Add To Cart</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.pexels.com/photos/12318206/pexels-photo-12318206.jpeg?auto=compress&cs=tinysrgb&w=800"
+          alt="Pani Puri">
+        <div class="details">
+          <div class="details-sub">
+            <h5>Pani Puri</h5>
+            <h5 class="price">₹30</h5>
+          </div>
+          <p>Crispy puris filled with spicy, tangy water—bursting with flavor in every bite!</p>
+          <button>Add To Cart</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.pexels.com/photos/17433337/pexels-photo-17433337.jpeg?auto=compress&cs=tinysrgb&w=800"
+          alt="Wada Pav">
+        <div class="details">
+          <div class="details-sub">
+            <h5>Wada Pav</h5>
+            <h5 class="price">₹40</h5>
+          </div>
+          <p>Mumbai’s favorite street snack – spicy potato fritter in soft pav with chutneys!</p>
+          <button>Add To Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+      <h1 class="title">About Us</h1>
+      <div class="about_row">
+        <div class="about_column">
+          <p>At Foodie, we believe food should make you happy. From spicy street eats to cozy comfort meals, we serve
+            love and flavor on every plate.</p>
+          <button id="btn1">Learn More</button>
+        </div>
+        <div class="about_column">
+          <img
+            src="https://img.freepik.com/free-photo/chef-making-ok-sign-white-background_1368-2804.jpg?w=800"
+            alt="Chef">
+        </div>
+      </div>
+    </div>
+
+    <!-- Order Section -->
+    <div id="order">
+      <h1 class="title1">Order Now</h1>
+      <form>
+        <input type="text" class="inp_box" placeholder="Name" required>
+        <input type="email" class="inp_box" placeholder="Email" required>
+        <textarea class="inp_box text_area" placeholder="Address" required></textarea>
+        <button class="btn2">Submit Order</button>
+      </form>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div>
+      &copy; 2025 Foodie
+      <p>Designed by Vaishnavi</p>
+    </div>
+  </footer>
+
+</body>
+</html>
